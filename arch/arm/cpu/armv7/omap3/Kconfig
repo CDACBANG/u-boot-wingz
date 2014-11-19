@@ -18,6 +18,10 @@ config TARGET_OMAP3_BEAGLE
 	bool "TI OMAP3 BeagleBoard"
 	select SUPPORT_SPL
 
+config TARGET_OMAP3_WINGZ
+	bool "CDAC OMAP3 WINGZ"
+	select SUPPORT_SPL
+
 config TARGET_CM_T35
 	bool "CompuLab CM-T3530 and CM-T3730 boards"
 	select SUPPORT_SPL
@@ -100,6 +104,7 @@ source "board/logicpd/am3517evm/Kconfig"
 source "board/teejet/mt_ventoux/Kconfig"
 source "board/ti/sdp3430/Kconfig"
 source "board/ti/beagle/Kconfig"
+source "board/cdac/wingz/Kconfig"
 source "board/compulab/cm_t35/Kconfig"
 source "board/compulab/cm_t3517/Kconfig"
 source "board/timll/devkit8000/Kconfig"
