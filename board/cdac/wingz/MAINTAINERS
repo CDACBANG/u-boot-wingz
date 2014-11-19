@@ -1,6 +1,7 @@
-BEAGLE BOARD
-M:	Tom Rini <trini@ti.com>
+WINGZ BOARD
+M:	rangineni balasubramanyam <balasubramanyam@cdac.in>
+M:  thajudheen k 
 S:	Maintained
-F:	board/ti/beagle/
-F:	include/configs/omap3_beagle.h
-F:	configs/omap3_beagle_defconfig
+F:	board/cdac/wingz/
+F:	include/configs/omap3_wingz.h
+F:	configs/omap3_wingz_defconfig
