@@ -76,7 +76,7 @@ int board_init(void)
 {
 	gpmc_init(); /* in SRAM or SDRAM, finish GPMC */
 	/* board id for Linux */
-	gd->bd->bi_arch_number = MACH_TYPE_WINGZ_CDAC_BLR;
+	gd->bd->bi_arch_number = MACH_TYPE_OMAP3_BEAGLE;
 	/* boot param addr */
 	gd->bd->bi_boot_params = (OMAP34XX_SDRC_CS0 + 0x100);
 
